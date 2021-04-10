@@ -1,0 +1,284 @@
+{
+  "tests": [
+    {
+      "name": "[Regras Gerais] Não deve adicionar uma operação caso não haja número digitado",
+      "setup": "npm install --silent > out",
+      "run": "npm run t1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Regras Gerais] Deve adicionar uma operação caso exista um número digitado",
+      "setup": "npm install --silent > out",
+      "run": "npm run t2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Regras Gerais] Não deve adicionar uma segunda operação logo após outra",
+      "setup": "npm install --silent > out",
+      "run": "npm run t3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Regras Gerais] Não deve adicionar uma segunda operação após um segundo número",
+      "setup": "npm install --silent > out",
+      "run": "npm run t4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Soma] Somar 7 + 5 deve resultar em 12",
+      "setup": "npm install --silent > out",
+      "run": "npm run t5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Soma] Somar 13.45 + 9 deve resultar em 22.45",
+      "setup": "npm install --silent > out",
+      "run": "npm run t6",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Soma] Somar 78 + 5.05 deve resultar em 83.05",
+      "setup": "npm install --silent > out",
+      "run": "npm run t7",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Soma] Somar .5 + 8.32 deve resultar em 8.82",
+      "setup": "npm install --silent > out",
+      "run": "npm run t8",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Subtração] Subtrair 7 - 5 deve resultar em 2",
+      "setup": "npm install --silent > out",
+      "run": "npm run t9",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Subtração] Subtrair 13.4 - 9 deve resultar em 4.4",
+      "setup": "npm install --silent > out",
+      "run": "npm run t10",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Subtração] Subtrair 78 - 5.05 deve resultar em 73.05",
+      "setup": "npm install --silent > out",
+      "run": "npm run t11",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Simples][Subtração] Subtrair .5 - 8.32 deve resultar em -7.82",
+      "setup": "npm install --silent > out",
+      "run": "npm run t12",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Complexas][Multiplicação] Multiplicar 2 * 3 deve resultar em 6",
+      "setup": "npm install --silent > out",
+      "run": "npm run t13",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Complexas][Multiplicação] Multiplicar 1.5 * 8 deve resultar em 12",
+      "setup": "npm install --silent > out",
+      "run": "npm run t14",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Complexas][Multiplicação] Multiplicar .5 * 2.4 deve resultar em 1.2",
+      "setup": "npm install --silent > out",
+      "run": "npm run t15",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Complexas][Multiplicação] 3.75 * 0.75 deve resultar em 5",
+      "setup": "npm install --silent > out",
+      "run": "npm run t18",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Complexas][Divisão] Dividir 4 / 2 deve resultar em 2",
+      "setup": "npm install --silent > out",
+      "run": "npm run t16",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Operações Complexas][Divisão] Dividir 2.4 / 8 deve resultar em 0.3",
+      "setup": "npm install --silent > out",
+      "run": "npm run t17",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Decimais] deve calcular normalmente sem nenhum decimal (7+5=12)",
+      "setup": "npm install --silent > out",
+      "run": "npm run t19",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Decimais] deve calcular normalmente com um decimal a esquerda (7.3+8=15.3)",
+      "setup": "npm install --silent > out",
+      "run": "npm run t20",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Decimais] deve calcular normalmente com um decimal a direita (9+32.4=41.4)",
+      "setup": "npm install --silent > out",
+      "run": "npm run t21",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Decimais] deve calcular normalmente com dois decimais (.7+.8=1.5)",
+      "setup": "npm install --silent > out",
+      "run": "npm run t22",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Decimais] deve ignorar se clicar no ponto mais de uma vez antes da operação (.7+8)",
+      "setup": "npm install --silent > out",
+      "run": "npm run t23",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Decimais] deve ignorar se clicar no ponto mais de uma vez depois da operação (.7+8.3)",
+      "setup": "npm install --silent > out",
+      "run": "npm run t24",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Resultados] Deve manter campo vazio se clicado com o campo vazio",
+      "setup": "npm install --silent > out",
+      "run": "npm run t25",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Resultados] Deve manter número no campo se clicado com o campo com apenas um número",
+      "setup": "npm install --silent > out",
+      "run": "npm run t26",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Resultados] Deve colocar o texto \"Erro de operação\" campo se clicado com o campo com apenas um número e a operação",
+      "setup": "npm install --silent > out",
+      "run": "npm run t27",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    },
+    {
+      "name": "[Resultado] Deve mostrar o resultado se cliocado com o campo com um número, operação e outro número válido",
+      "setup": "npm install --silent > out",
+      "run": "npm run t28",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.36
+    }
+  ]
+}

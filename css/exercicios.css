@@ -1,0 +1,14 @@
+button {
+    font-size: 150%;
+    border-radius: 6px;
+}
+
+input {
+    font-size: 200%;
+}
+
+div#ex15 {
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+}
